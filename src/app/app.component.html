@@ -1,0 +1,8 @@
+<div>Today's date :- {{ presentDate }}</div>
+<div>Today's date :- {{ presentDate | date }}</div>
+<div>
+  This is a short date: - {{ presentDate | date: 'shortDate' }} <br />
+  This line shows the full date: -{{ presentDate | date: 'fullDate' }} <br />
+  This will show a formatted date: - {{ presentDate | date: 'M/dd/yyyy' }}<br />
+  This indicates the hours and minutes:- {{ presentDate | date: 'h:mm' }}
+</div>
